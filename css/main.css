@@ -72,3 +72,210 @@
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.main-nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 410px;
+    background-color: beige;
+}
+
+.main-nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 410px;
+    background-color: beige;
+}
+
+.main-nosotros h1{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    height: 85px;
+    font-size: 50px;
+}
+
+.main-nosotros p{
+    color: white;
+    background-color: rgb(0, 0, 0);
+   max-width: 600px;
+   text-align: center;
+   font-size: 24px;
+   padding: 15px;
+}
+
+.main-servicios{
+    background-color: beige;
+}
+
+.main-servicios h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    height: 80px
+    
+}
+
+.main-servicios{
+    background-color: beige;
+}
+
+.main-servicios h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    height: 80px
+    
+}
+
+.main-servicios img{
+    height: 400px;
+}
+
+.main-servicios section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-servicios div{
+    display: flex;
+    background-color: beige;
+}
+
+.main-servicios img{
+    margin: 30px
+}
+
+.main-servicios p{
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+
+}
+
+.formulario{
+    background-color: #a40000;
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+}
+
+.main-contactanos h2{
+    display: flex;
+    justify-content: space-around;
+    margin: revert;
+}
+
+.main-contactanos p{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.main-contactanos{
+    height: 550px;
+    background-color: beige;
+
+}
+
+.form-control{
+    margin: 4px
+}
+
+
+.main-productos{
+    background-color: beige;
+}
+
+body {
+    margin: 0;
+    background-color: beige;
+}
+
+.main-productos h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    height: 80px;
+}
+
+.main-productos img {
+    max-width: 100%;
+    height: auto;
+    margin: 30px;
+}
+
+.main-productos-section {
+    align-items: center;
+}
+
+.main-productos-div {
+    display: flex;
+    background-color: beige;
+    overflow: hidden;
+}
+
+h4{
+       display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.enlace-uno{
+    padding: 10px;
+}
+
+.enlace-dos{
+    padding: 10px;
+}
+
+.enlace-tres{
+    padding: 10px;
+}
+
+
+  .header nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .header nav ul li a:hover {
+    background-color: #cceff9;
+  }
+
+  @media screen and (max-width: 768px) {
+    .main-servicios {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .main-servicios div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-servicios img {
+        max-width: 100%;
+        margin-bottom: 10px; 
+    }
+
+    .main-servicios p {
+        text-align: center;
+    }
+}
+
+
+.footer a:hover{
+    background-color: #cceff9;
+}
